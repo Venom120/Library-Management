@@ -31,7 +31,7 @@ def issue_():
             fetch_data=cur.fetchall()
             check=()
             if fetch_data == check:
-                message='Rollno. not found'
+                message='Roll no. not found'
                 return render_template('issue.html',message=message)
             else:
                 user_choice=request.form["choosebooks"]
