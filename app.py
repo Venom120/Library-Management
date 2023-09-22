@@ -194,7 +194,7 @@ def user_addsubmit():
                 message3='This Name/Rollno already exist!!'
                 return render_template('user.html', message3=message3)
             else:
-                cur.execute(f'insert into  student values({rollno},"{name}", {cardno})')
+                cur.execute(f'insert into student values({rollno},"{name}", {cardno})')
                 mydbl.commit()
                 status='user added'
                 return render_template('user.html',message3=status)
