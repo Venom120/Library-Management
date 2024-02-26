@@ -6,7 +6,7 @@ import pymysql
 import datetime
 
 # connecting mysql to this file
-mydbl=pymysql.connect(host="localhost", user="root", password="root",database="database",cursorclass=pymysql.cursors.DictCursor)
+mydbl=pymysql.connect(host="localhost", user="root", password="root123",database="database",cursorclass=pymysql.cursors.DictCursor)
 cur=mydbl.cursor()
 
 app = Flask(__name__)

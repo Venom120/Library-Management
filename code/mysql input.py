@@ -2,7 +2,7 @@
 
 import mysql.connector
 
-mydb=mysql.connector.connect(host="localhost", user="root", password="root", database="little_world")
+mydb=mysql.connector.connect(host="localhost", user="root", password="root123", database="database")
 cur=mydb.cursor()
 
 def commit():
